@@ -1,0 +1,71 @@
+.dividerLight,
+.dividerDark {
+  width: 250px;
+  border-top: solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  margin: 1rem auto;
+}
+
+.dividerLight {
+  border-color: #fff;
+}
+
+.dividerDark {
+  border-color: #2c3e50;
+}
+
+.header {
+    background-color: #00979c;
+    height: 30vh;
+    font-size: 0.8rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      height: 40vh;
+      font-size: 1rem;
+    }
+  }
+  
+  .headerAvatar {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .headerTitle {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+  }
+  
+  .headerSlogan {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+     .headerAvatar {
+        width: 14rem;
+        height: 14rem;
+      }
+      
+      .headerTitle {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: 200;
+      }
+      
+      .headerSlogan {
+        font-size: 1.75em;
+        text-transform: uppercase;
+        margin: 0;
+      }
+   }

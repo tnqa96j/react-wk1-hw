@@ -1,0 +1,55 @@
+
+.dividerLight,
+.dividerDark {
+  width: 250px;
+  border-top: solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  margin: 1rem auto;
+}
+
+.dividerLight {
+  border-color: #fff;
+}
+
+.dividerDark {
+  border-color: #2c3e50;
+}
+.image {
+    position: relative;;
+  }
+  
+  .imageLayout {
+    width: 100%;
+    background-color: #fff;
+    font-size: 1rem;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+  }
+  @media (min-width: 576px){
+    .imageLayout{
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+    }
+
+  }
+
+
+  .imageLink {
+    display: block;
+  }
+  
+  .imageStyle {
+    width: 100%;
+    display: block;
+  }
+  
+  .imageTitle {
+    color: white;
+    right: 2rem;
+    bottom: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+  }
