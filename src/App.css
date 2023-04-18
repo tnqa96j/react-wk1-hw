@@ -53,3 +53,12 @@ body {
     width: 1500px;
   }
 }
+
+.spinner-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.spinner{
+  margin: 20vh auto;
+}
